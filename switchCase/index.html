@@ -1,0 +1,49 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <title>Frequency of die numbers</title>
+    <script src="script.js"></script>
+</head>
+<body>
+    <div>Die numbers thrown by x dice throws</div><br />
+    <div>Number of throws: <input type="text" id="dieRoll" value="10000" /></div>
+    <input type="button" onclick="roll()" value="Roll" /><br />
+    <table border="1">
+        <thread>
+            <tr>
+                <td>
+                    Die Number
+                </td>
+                <td>
+                    Number of throws
+                </td>
+            </tr>
+        </thread>
+        <tr>
+            <td>one</td>
+            <td><p id="throw_one"></p></td>
+        </tr>
+        <tr>
+            <td>two</td>
+            <td><p id="throw_two"></p></td>
+        </tr>
+        <tr>
+            <td>three</td>
+            <td><p id="throw_three"></p></td>
+        </tr>
+        <tr>
+            <td>four</td>
+            <td><p id="throw_four"></p></td>
+        </tr>
+        <tr>
+            <td>five</td>
+            <td><p id="throw_five"></p></td>
+        </tr>
+        <tr>
+            <td>six</td>
+            <td><p id="throw_six"></p></td>
+        </tr>
+    </table>
+</body>
+</html>
